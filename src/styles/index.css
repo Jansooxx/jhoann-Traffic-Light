@@ -1,64 +1,63 @@
 body {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+#barra{
+  background-color: black;
+  width: 30px;
+  height: 150px;
+  margin-left: 30px;
+}
+
+.chassis {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 82%;
+  height: 70%;
+  padding: 7px;
+  border-radius: 30px;
+  place-items: center;
+}
+
+.cirRed{
+  margin: 10px;
+  width: 80px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  cursor: pointer;
+  transition: 0.9s ease-in-out;
+}
+
+.cirYell {
+  margin: 10px;
+  height: 100px;
+  width: 80px;
+  background-color: yellow;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 0.9s ease-in-out;
+}
+
+.cirGreen {
+    margin: 10px;
+    height: 100px;
+    width: 80px;
+    background-color: green;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.9s ease-in-out;
   }
-
-  .chassis {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    width: 25vw;
-    height: 55vh;
-    padding: 5px;
-    border-radius: 30px;
-    place-items: center;
+  
+  .lighted {
+    margin: 10px;
+    width: 80px;
+    height: 100px;
+    border: 10px;
+    cursor: pointer;
+    border-radius: 100%;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.911);
+    
   }
-
-  .cirGreen {
-      margin: 10px;
-      height: 100px;
-      width: 100px;
-      background-color: green;
-      border-radius: 50%;
-      cursor: pointer;
-      transition: 0.9s ease-in-out;
-
-    }
   
-    .cirYell {
-      margin: 10px;
-      height: 100px;
-      width: 100px;
-      background-color: yellow;
-      border-radius: 50%;
-      cursor: pointer;
-      transition: 0.9s ease-in-out;
-
-    }
-  
-    .cirRed {
-      margin: 10px;
-      height: 100px;
-      width: 100px;
-      background-color: red;
-      border-radius: 50%;
-      cursor: pointer;
-      transition: 0.9s ease-in-out;
-    }
-      
-    .lighted {
-      background-color: white;
-      margin: 10px;
-      height: 100px;
-      width: 100px;
-      padding: 10px 20px;
-      border-radius: 50%;
-      cursor: pointer;
-      filter: blur(20px);
-      box-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-                  0 0 20px rgba(255, 255, 255, 0.8),
-                  0 0 30px rgba(255, 255, 255, 0.8),
-                  0 0 40px rgba(255, 255, 255, 0.8);
-    }
- 
